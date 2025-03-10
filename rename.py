@@ -1,3 +1,4 @@
+# script to rename the files in the directory wavs/StutterTalk/ to remove spaces from the filenames.
 import os
 import glob
 

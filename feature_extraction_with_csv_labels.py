@@ -1,3 +1,4 @@
+# Extract features from audio clips and match them with labels from a CSV file
 import os
 import librosa
 import numpy as np
@@ -77,3 +78,4 @@ df_features["filename"] = file_names
 # Save to CSV
 df_features.to_csv("stuttering_features_with_labels.csv", index=False)
 print("✅ Feature extraction complete! Saved to 'stuttering_features_with_labels.csv'")
+
